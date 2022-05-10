@@ -1,0 +1,36 @@
+.modal{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,0.7);
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+.modal.is-open{
+    display: flex;
+}
+.modal-container{
+    position: relative;
+    background-color: rgb(187, 144, 226);
+    min-width: 320px;
+    max-width: 480px;
+    min-height: 200px;
+    max-height:600px;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.modal-close{
+    position:absolute;
+    top: 1rem;
+    right: 1rem;
+
+}
+.custom-modal {
+    position:relative;
+    text-align: center;
+    top: 0rem;
+}
